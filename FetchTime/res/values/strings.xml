@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FetchTimeActivity!</string>
+    <string name="app_name">FetchTime</string> 
+        <string name="startbutton">Start</string>
+        <string name="TimerText">Time meter</string>
+        <string name="TimerPlaseWaitText">Please wait…</string>
+        <string name="TestRunningTime">Test running time: </string>
+    </resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.examples.androidrssreaderapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk android:minSdkVersion="11" />
+ 
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:name=".AndroidRSSReaderApplicationActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+        <!-- Add New Site Activity -->
+        <activity android:name=".AddNewSiteActivity" />
+ 
+        <!-- List rss items Activity -->
+        <activity android:name=".ListRSSItemsActivity"
+            android:configChanges="keyboardHidden|orientation"/>
+ 
+        <!-- Display webpage Activity -->
+        <activity android:name=".DisPlayWebPageActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation" />
+    </application>
+ 
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+ 
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <!-- Header -->
+    <include layout="@layout/header"/>
+ 
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@id/layoutHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#bababa"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" 
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"/>
+ 
+</RelativeLayout>

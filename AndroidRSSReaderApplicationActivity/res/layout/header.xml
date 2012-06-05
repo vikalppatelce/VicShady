@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutHeader"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:layout_alignParentTop="true"
+    android:background="@layout/header_gradient"
+    android:orientation="horizontal">
+ 
+    <!-- Logo -->
+    <ImageView android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"/>
+ 
+    <!-- Plus Button -->
+ 
+    <ImageButton
+        android:id="@+id/btnAddSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/plus"
+        android:layout_centerVertical="true" />
+ 
+</RelativeLayout>
