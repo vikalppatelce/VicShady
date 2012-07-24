@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0000ff"
+    >
+    
+    <EditText 
+        android:id="@+id/firstname"
+        android:hint="FirstName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        />
+	<EditText 
+	    android:id="@+id/lastname"
+	    android:hint="LastName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    />
+    <EditText 
+        android:id="@+id/email"
+        android:hint="abc@abc.com"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:inputType="textEmailAddress"
+        />
+    <EditText 
+        android:id="@+id/password"
+        android:hint="password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:inputType="textPassword"
+        />
+    <EditText 
+        android:id="@+id/confirmpassword"
+        android:hint="confirm-password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:inputType="textPassword"
+        />
+    <TableLayout
+        android:stretchColumns="2"
+        android:shrinkColumns="2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dip"
+        >
+        <TableRow>
+            <Button 
+                android:id="@+id/regcancel"
+                android:text="Cancel"
+                android:textSize="20dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="5dip"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                />
+            <Button 
+                android:id="@+id/regnext"
+                android:text="Next"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textSize="20dip"
+                android:layout_marginRight="5dip"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                />
+            
+        </TableRow>
+        
+    </TableLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0000ff"
+    >
+
+    <Button 
+        android:id="@+id/upload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dip"
+        android:text="Upload"
+        android:textSize="20dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        />
+     <CheckBox 
+        android:id="@+id/checkbox"
+        android:layout_width="fill_parent"
+        android:checked="true"
+        android:layout_height="wrap_content"
+        android:text="I Accept terms and condition*"
+        android:layout_marginTop="20dip"
+        />
+     <Button 
+         android:id="@+id/register"
+         android:layout_width="fill_parent"
+         android:layout_height="30dip"
+         android:layout_weight="1"
+         android:text="Register"
+         android:textSize="20dip"
+         android:layout_marginTop="20dip"
+         android:layout_marginLeft="5dip"
+         android:layout_marginRight="5dip"
+         />
+     <Button 
+         android:id="@+id/reg2back"
+         android:layout_width="fill_parent"
+         android:layout_height="30dip"
+         android:layout_weight="1"
+         android:text="Back"
+         android:textSize="20dip"
+         android:layout_marginTop="20dip"
+         android:layout_marginLeft="5dip"
+         android:layout_marginRight="5dip"
+         android:layout_marginBottom="5dip"
+         />
+     
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyProjectActivity!</string>
+    <string name="app_name">MyProject</string>
+    <string-array name="security1spinner">
+        <item >What is your Hometown?</item>
+        <item >What is your NickName?</item>
+        <item >What is your childhood Name?</item>
+        <item >In what city your parents born?</item>
+        <item >What is your Role-Model?</item>
+    </string-array>
+        <string name="security_question">Security Question</string>
+        <string  name="dashboard">DashBoard</string>
+        <string name="fbutton">Mail Me</string>
+        <string name="fdetail">By Clicking Mail Me button, I hereby Accept the policy mention in their sections</string>
+        <string name="forget">Forget Password?</string>
+        <string name="fusername">Username</string>
+
+</resources>
